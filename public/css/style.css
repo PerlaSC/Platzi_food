@@ -17878,6 +17878,18 @@ video {
   transition-delay: 1000ms;
 }
 
+.rotate-45 {
+  transform: rotate(45deg);
+}
+
+.zoom {
+  transform: scale(2);
+}
+
+.hover\:zoom:hover {
+  transform: scale(2);
+}
+
 @media (min-width: 640px) {
   .sm\:space-y-0 > :not(template) ~ :not(template) {
     --space-y-reverse: 0;
