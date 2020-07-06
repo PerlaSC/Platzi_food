@@ -18122,7 +18122,7 @@ video {
   transition-delay: 1000ms;
 }
 
-.form-control{
+.form-control {
   outline: 0;
   width: 100%;
   line-height: 1.375;
@@ -18143,13 +18143,13 @@ video {
   border-color: rgba(144, 205, 244, var(--border-opacity));
 }
 
-.form-control:hover{
+.form-control:hover {
   --bg-opacity: 1;
   background-color: #fff;
   background-color: rgba(255, 255, 255, var(--bg-opacity));
 }
 
-.form-control:focus{
+.form-control:focus {
   outline: 0;
   box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
 }
@@ -18164,12 +18164,16 @@ video {
   --bg-opacity: 1;
   background-color: #a0aec0;
   background-color: rgba(160, 174, 192, var(--bg-opacity));
-  margin-left: auto;
-  margin-right: auto;
   display: block;
 }
 
-.btn:hover{
+.btn-primary {
+  --bg-opacity: 1;
+  background-color: #d69e2e;
+  background-color: rgba(214, 158, 46, var(--bg-opacity));
+}
+
+.btn:hover {
   box-shadow: none;
   --bg-opacity: 1;
   background-color: #4a5568;
