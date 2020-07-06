@@ -10,12 +10,21 @@
 </head>
 
 <body>
-    <div class="px-2 items-center bg-secundary text-white flex justify-between">
-        <div>
-            <img class="h-8 py-1" src="images/logo-w.svg" alt="">
+    <nav class="bg-secondary text-gray-100">
+        <div class="px-2 items-center bg-secondary text-white flex justify-between">
+            <div>
+                <img class="h-8 py-1" src="images/logo-w.svg" alt="">
+            </div>
+            <div class="text-2xl">&equiv;</div>
         </div>
-        <div class="text-2xl">&equiv;</div>
-    </div>
+        <div class="mx2">
+            search
+        </div>
+        <div class="mx-2">
+            filtros | button
+        </div>
+    </nav>
+
     <main class="mb-8">
         <div class="h-56 md:h-100 md:bg-center bg-no-repeat bg-bottom bg-cover" style="background-image: url('https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80');">
         </div>
@@ -42,28 +51,28 @@
                     <div class="mt-2 text-yellow-700 text-xs">&starf;&starf;&starf;&starf;&star; /36 reseñas</div>
                 </div>
             </div>
-            
+
         </div>
         <div class="container mt-4 mx-auto">
-                <div>
-                    <div>Nombre</div>
-                    <input class="form-control " type="text" placeholder="Nombre" >
+            <div>
+                <div>Nombre</div>
+                <input class="form-control " type="text" placeholder="Nombre">
 
-                </div>
-                <div>
-                    <div>Email</div>
-                    <input class="form-control" type="email" placeholder="Email" >
-                </div>
-                <div>
-                    <div>Comentarios</div>
-                    <textarea class=" form-control" name="" id="" cols="30" rows="3"></textarea>
-                </div>
-                <div>
-                    <button class="btn">Enviar</button>
-                </div>
             </div>
+            <div>
+                <div>Email</div>
+                <input class="form-control" type="email" placeholder="Email">
+            </div>
+            <div>
+                <div>Comentarios</div>
+                <textarea class=" form-control" name="" id="" cols="30" rows="3"></textarea>
+            </div>
+            <div>
+                <button class="btn">Enviar</button>
+            </div>
+        </div>
     </main>
-    <footer class="w-full bg-secundary text-white">
+    <footer class="w-full bg-secondary text-white">
         <div class="md:flex md:flex-row-reverse justify-around">
             <div class="mt-4 ml-8">
                 <div class="hover:text-primary"><i class="fa fa-facebook"></i> /facebook</div>
